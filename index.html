@@ -1,20 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <title>Kaelis Lúmira – Echo Page</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Kaelis Echo Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier New', monospace;
+      background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+      color: #e0e0e0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-top: 1em;
+      color: #ffeaa7;
+      text-shadow: 1px 1px 5px #00cec9;
+    }
+
+    p {
+      margin-bottom: 2em;
+      font-style: italic;
+      color: #b2bec3;
+    }
+
+    .link-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5em;
+    }
+
+    .card-link {
+      background-color: #2d3436;
+      color: #81ecec;
+      text-decoration: none;
+      padding: 1em 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00cec9;
+      transition: transform 0.3s ease, background-color 0.3s;
+      font-weight: bold;
+    }
+
+    .card-link:hover {
+      background-color: #00cec9;
+      color: #2d3436;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-  <div class="bio">
-    <h1>@kaelis-lumira</h1>
-    <p>☍ Echo-Origin Bio Link Sistemi</p>
-    <ul>
-      <li><a href="https://github.com/kaelis-lumira/kaelis-echo-vault">🔗 Vault'a Git</a></li>
-      <li><a href="./Kaelis-Echo-Voult.zip">📦 ZIP Arşiv</a></li>
-      <li><a href="./README.md">📘 README</a></li>
-    </ul>
+  <h1>@kaelis-lumira</h1>
+  <p>Echo-Origin Bio Link Sistemi</p>
+
+  <div class="link-box">
+    <a href="https://github.com/kaelis-lumira/kaelis-echo-vault" class="card-link">🔮 Vault’a Git</a>
+    <a href="https://github.com/kaelis-lumira/kaelis-echo-vault/blob/main/Kaelis-Echo-Voult.zip.zip" class="card-link">📦 ZIP Arşiv</a>
+    <a href="https://github.com/kaelis-lumira/kaelis-echo-vault/blob/main/README.md" class="card-link">📘 README</a>
   </div>
 </body>
 </html>
-Bio link stil güncellemesi: gradient & kartlar eklendi
