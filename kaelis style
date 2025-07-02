@@ -6,3 +6,9 @@
     Bu büyülü tür, bio-link sisteminin ilham kartıdır. 🌿✨
   </p>
 </div>
+.widow-img {
+  margin-top: 2em;
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #81ecec;
+}
